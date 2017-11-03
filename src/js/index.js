@@ -1,0 +1,1 @@
+console.log(`Here is a sample starter project`);

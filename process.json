@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name"        : "project-name",
+    "script"      : "./app.js",
+    "watch"       : ["app.js", "./src/routes"],
+    "node-args"   : "--debug",
+    "env": {
+      "NODE_ENV": "development",
+    },
+    "log_date_format" : "YYYY-MM-DD HH:mm Z"
+  }]
+}
